@@ -5,7 +5,7 @@ import insta from "../../public/insta.svg";
 const Footer = () => {
   return (
     <div className=" bg-[#14274A] h-52 flex items-center justify-between   w-full">
-      <div className=" container mx-auto px-10 flex items-center justify-between text-white">
+      <div className=" container mx-auto px-10 flex items-center justify-around text-white">
         {" "}
         <div className="w-[17%] space-y-3">
           <ul className="flex flex-col w-fit items-center justify-center">
@@ -47,7 +47,7 @@ const Footer = () => {
               type="email"
               name=""
               id=""
-              className="bg-[#14274A] border-2 rounded-tl-md rounded-bl-md border-[#E0B973]"
+              className="bg-[#14274A] border-2 rounded-tl-md rounded-bl-md px-3 outline-none border-[#E0B973]"
             />
             <div className="px-3 bg-[#E0B973] flex items-center text-[#14274A] font-bold uppercase rounded-tr-md rounded-br-md">
               ok
