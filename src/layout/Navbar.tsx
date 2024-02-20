@@ -1,7 +1,6 @@
-import React from "react";
-const Navbar = () => {
+const Navbar = ({ setSelectedHandel }: any) => {
   return (
-    <div className="w-full container absolute  flex items-center justify-around   ">
+    <div className="w-full container absolute top-0 right-0 left-0 mx-auto  flex items-center justify-around   ">
       <div className="h-20 bg-[#E0B973] w-fit px-10 rounded-br-2xl rounded-bl-2xl">
         <ul className="py-5 flex flex-col items-center justify-center text-[#14274A]">
           <li className="text-xl">LUXURY</li>
